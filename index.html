@@ -32,40 +32,56 @@
     />
     <link rel="stylesheet" href="./index.css" />
   </head>
-  <body class="flex flex-col bg-blue-950 m-10">
-    <main class="flex flex-col items-center m-10 ">
-      <div class="bg-purple-600 opacity-30 bg-blend-overlay">
-        <img src="images/image-header-mobile.jpg" alt="" />
-      </div>
+  <body
+    class="flex flex-col md:flex-row h-100% w-50% justify-center items-center bg-[#0A0C1B]"
+  >
+    <main class="flex flex-col md:flex-row items-center py-10 px-5">
+      <div
+        class="bg-[#1C1938] flex flex-col md:flex-row justify-center items-center gap-5 py-10 px-10"
+      >
+        <div class="bg-gradient-to-t from-purple-900 to-purple-900 relative">
+          <img
+            src="images/image-header-mobile.jpg"
+            alt=""
+            class="w-60 mix-blend-overlay"
+          />
+        </div>
 
-      <div class="flex flex-col items-center justify-center">
-        <h2 class="inter-bold text-4xl text-white">
-          Get<span class="text-purple-900"> insights </span> that help your
-          business grow.
-        </h2>
-        <p class="lexend-deca-normal text-white">
-          Discover the benefits of data analytics and make better decisions
-          regarding revenue, customer experience, and overall efficiency.
-        </p>
-        <div class="flex flex-col text-white">
-          <p class="flex flex-col inter-bold">
-            10k+<span class="inter-normal">companies</span>
+        <div class="flex flex-col items-center justify-center w-60 gap-5">
+          <h2 class="inter-bold text-3xl text-white text-center">
+            Get<span class="text-purple-900"> insights </span> that help your
+            business grow.
+          </h2>
+          <p class="lexend-deca-normal text-xs text-white text-center">
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
           </p>
-          <p class="flex flex-col inter-bold">
-            314<span class="inter-normal">templates</span>
-          </p>
-          <p class="flex flex-col justify-center inter-bold">
-            12m+<span class="inter-normal">queries</span>
-          </p>
+          <div class="flex flex-col text-center text-white gap-5">
+            <p class="flex flex-col inter-bold">
+              10k+<span class="lexend-deca-normal text-xs uppercase"
+                >companies</span
+              >
+            </p>
+            <p class="flex flex-col inter-bold">
+              314<span class="lexend-deca-normal text-xs uppercase"
+                >templates</span
+              >
+            </p>
+            <p class="flex flex-col justify-center inter-bold">
+              12m+<span class="lexend-deca-normal text-xs uppercase"
+                >queries</span
+              >
+            </p>
+          </div>
         </div>
       </div>
     </main>
 
-    <div class="attribution">
+    <!-- <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
       >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+    </div> -->
   </body>
 </html>
